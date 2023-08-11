@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <form action="api.acciojob.com/login" method="">
+    <!-- Get(for non sensitive info) and post(for sensitive info)-->
+    <!-- form controller is fancy name of inputs-->
+    <label for="first_name">First_name</label><br>
+    <input type="text" id="first_name" name="first_name" placeholder="Ananya"><br>
+    <!-- id can be styled usinf #id_name{}-->
+    <label for="Phone_No">Mobile_Number</label><br>
+    <input type="number" id="Phone_No" name="Phone_No" placeholder="57378450836"><br>
+    <label for="password">Password</label><br>
+    <input type="password" id="password" name="password" placeholder="656732658964"><br>
+    <label for="email">Email</label><br>
+    <input type="email" id="email" name="email" placeholder="ananya@gmail.com"><br>
+    <!--
+    {
+        first_name:"Ananya",
+        Phone_No:"823656569469",
+        password:"higfieger"
+    }
+    -->
+    <!-- using name we create key value pairs-->
+    <!--
+    <input type="radio">
+    <input type="checkbox">I agree to terms and conditions
+    <input type="color">
+    <input type="date">
+    <input type="range">
+    -->
+   </form> 
+   <!--STUDENT REGISTRATION FORM-->
+   <form action="#" method="post">
+    <label for="first_name">First Name</label>
+    <input type="text" id="first_name" name="first_name" placeholder="Ananya" required>
+    <label for="last_name">Last Name</label>
+    <input type="text" id="last_name" name="last_name" placeholder="Kaushal">
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email" placeholder="ananyakaushal@gmail.com" required>
+    <label for="Number">Number</label>
+    <input type="number" id="Nunber" name="number" placeholder="767260250210" required>
+    <label for="feedback">Feedback</label>
+    <textarea id="feedback" name="feedback" rows="2" cols="10" placeholder="Add Your Feedback"></textarea>
+    <label for="Members">Members</label>
+    <select id="Member" name="Member">
+        <option>
+            Student
+        </option>
+        <option>
+            Teacher
+        </option>
+        <option>
+            Admin
+        </option>
+    </select>
+
+   <input type="submit" value="Submit">
+   <button type="submit">
+    Submit Button
+   </button>
+</form>
+</body>
+</html>
